@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore database files
+/Database/
+*.mv.db
+*.trace.db
+
+# Ignore build folder
+/target/
+
+# Ignore IntelliJ files
+.idea/
